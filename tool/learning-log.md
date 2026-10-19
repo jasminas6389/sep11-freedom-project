@@ -1,13 +1,13 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Kaboom**
 
-## Project: **X**
+## Project: **Sep11**
 
 ---
 
-### X/X/XX:
-* Text
+### 10/19/26:
+* Learning Kaboom
 
 ### X/X/XX:
 * Text
