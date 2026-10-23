@@ -2,7 +2,7 @@
 
 ## Tool: **Kaboom/VUE**
 
-## Project: **Game/studyguide **
+## Project: **Game/studyguide**
 
 ---
 
