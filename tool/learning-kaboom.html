@@ -1,0 +1,64 @@
+<!-- number 1 -->
+
+
+<!-- makes character go down from the top of the screen
+
+ <script type="module">
+
+// import kaboom.js
+import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+
+// start the game
+kaboom()
+
+// define gravity
+setGravity(24)
+
+// load a default sprite
+loadBean()
+
+// add character to screen, from a list of components
+const player = add([
+    sprite("bean"),  // renders as a sprite
+    pos(120, 80),    // position in world
+    area(),          // has a collider
+    body(),          // responds to physics and gravity
+])
+
+// jump when player presses "space" key
+onKeyPress("space", () => {
+    // .jump() is provided by the body() component
+    player.jump()
+})
+
+</script> -->
+
+
+
+
+<!-- number 2 -->
+
+
+
+<script type="module">
+
+// import kaboom.js
+import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+
+// initialize kaboom context
+kaboom();
+
+// add a piece of text at position (120, 80)
+add([
+    text("hello"),
+    pos(120, 80),
+]);
+
+add([
+    pos(80, 120),
+    rect(20, 40),
+    outline(4),
+    area(),
+])
+</script> 
+
