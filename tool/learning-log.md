@@ -26,6 +26,13 @@ add([
     area(),
 ])
 ```
+Adding a circle 
+```
+add([
+    pos(80, 120),
+    circle(16),
+])
+```
     
 
 
