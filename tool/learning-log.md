@@ -12,8 +12,8 @@
 So we have started to learn our tool that we have picked. I picked Kaboom and now it time to learn it. I don't know where to start so first I'm going to look at some examples that are on the website.
 
 ##### Links
-GitHub of Kaboom -> https://github.com/replit/kaboom?tab=readme-ov-file#notice
-link to playground -> (https://kaboomjs.com/play?example=add
+GitHub of Kaboom -> https://github.com/replit/kaboom?tab=readme-ov-file#notice <br>
+link to playground -> (https://kaboomjs.com/play?example=add<br>
 
     * I made a separate file in my tools folder so I can test out some code from the website.
 
@@ -37,6 +37,19 @@ add([
     circle(16),
 ])
 ```
+
+I watched a video from the channel `ourcade`, and I watched the video `5 tips for getting started with Kaboom.js`. Here are some things I learned.
+
+**Creating game objects**
+* Use `k.add()` to create objects
+* Add components to decide what the object looks like and what it can do
+*    `k.pos()`- where the object is
+*    `k.rect()`- makes a rectangle
+*    `k.spite()`- gives the object an image
+*    `k.body()`- lets gravity affect the object
+*    `k.solid()`- stops objects from passing through each other.
+*    
+
 
 
 
