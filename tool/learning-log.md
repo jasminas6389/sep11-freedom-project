@@ -50,8 +50,28 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 *    `k.solid()`- stops objects from passing through each other.
 *    
 
+**Making objects collide**
+* Make a player fall using gravity
+* You can create a floor for the player to land on
+* Use `k.body()` to make the player fall
+* Use `k.solid()` to stop the player from falling through the floor
 
+**Adding animations**
+* Learning how to load images into the game
+* Use `k.loadSprite()` to load a sprite sheet (an image containing many smaller images).
+* Choose which images to use for your animations
+* Use `player.play("run")` to make your character run.
+* Make the character face left or right
+* Play the idle animation when the character stops moving.
 
+**Creating game levels**
+* Build a level using rows of letters and symbols
+* You have to tell kaboom what each symbol means
+* For example = could mean a floor tile
+* Use `k.addLevel()` to create the level.
+* Add floors, platforms, and a player.
+* Make the player move left and right and jump.
+* Make the camera follow the player as they move.
 
 
 
