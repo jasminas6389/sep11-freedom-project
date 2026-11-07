@@ -75,8 +75,21 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 
 
 
-### X/X/XX:
-* Text
+### 11/7/26:
+* So first I made a new file in my ide called, kaboom.html, and what i made is pretty simple and basic.
+* I made a blue background with grass, sun, and tree. with a pink character with eyes.
+* Now i'm going to figure out how to add a body / build a body for my character.
+
+* I made the body for the character and it looks okay.  now i'm going to try and add a hospital because for the game i want to make. the patient is going to leave the hospital and try to safely get home, and avoid obstacles.
+
+* I like doing my code in Jsbin because i find it easier because I don't have to switch back and forth between tabs.
+* So I have added my hospital and I really like how it turned out, at first I was gonna do only 4 windows but it felt empty, so then I changed the layout and I added six.
+
+* First for the background, I used width , height, and background to put the setting, for how wide the screen is and how tall the screen is.
+* Using rect() will make a rectangle which I used to make the grass. using"pos()" will tell the game where you want the position will be.
+* I used "text()" to write the word hospital on the building, and I added a black border around the building and I liked how it looked, "outline(2, BLACK)". I used the position, size, and color codes to make everything look realistic.
+
+
 
 
 <!-- 
