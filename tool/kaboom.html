@@ -3,171 +3,171 @@
 // import kaboom.js
 import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
-// initialize kaboom context
-kaboom({
-    width: 640,
-    height: 400,
-    background: [135, 206, 235],
-});
+    // initialize kaboom context
+    kaboom({
+        width: 640,
+        height: 400,
+        background: [135, 206, 235],
+    });
 
-//grass
-add([
-    rect(640, 100),
-    pos(0, 300),
-    color(70, 180, 90),
-]);
-//sun
-add([
-    circle(35),
-    pos(550, 70),
-    color(255, 220, 70),
-]);
-//tree
-add([
-    rect(25, 90),
-    pos(110, 230),
-    color(120, 75, 35),
-]);
+    //grass
+    add([
+        rect(640, 100),
+        pos(0, 300),
+        color(70, 180, 90),
+    ]);
+    //sun
+    add([
+        circle(35),
+        pos(550, 70),
+        color(255, 220, 70),
+    ]);
+    //tree
+    add([
+        rect(25, 90),
+        pos(110, 230),
+        color(120, 75, 35),
+    ]);
 
-add([
-    circle(50),
-    pos(122, 210),
-    color(40, 150, 70),
-]);
+    add([
+        circle(50),
+        pos(122, 210),
+        color(40, 150, 70),
+    ]);
 
-//charcter
-add([
-    circle(20),
-    pos(320, 265),
-    color(255, 120, 160),
-]);
-//eyes
-add([
-    circle(4),
-    pos(315, 265),
-    color(0,0,0),
-]);
+    //charcter
+    add([
+        circle(20),
+        pos(320, 265),
+        color(255, 120, 160),
+    ]);
+    //eyes
+    add([
+        circle(4),
+        pos(315, 265),
+        color(0,0,0),
+    ]);
 
-add([
-    circle(4),
-    pos(328, 265),
-    color(0,0,0),
-]);
-//bpdy
-add([
-    rect(30, 40),
-    pos(305, 275),
-    color(255, 180, 160),
-]);
-//left arm
-add([
-    rect(10, 30),
-    pos(295, 280),
-    color(255, 180, 190),
-]);
-///right arm
-add([
-    rect(10, 30),
-    pos(335, 280),
-    color(255, 180, 190),
-]);
+    add([
+        circle(4),
+        pos(328, 265),
+        color(0,0,0),
+    ]);
+    //bpdy
+    add([
+        rect(30, 40),
+        pos(305, 275),
+        color(255, 180, 160),
+    ]);
+    //left arm
+    add([
+        rect(10, 30),
+        pos(295, 280),
+        color(255, 180, 190),
+    ]);
+    ///right arm
+    add([
+        rect(10, 30),
+        pos(335, 280),
+        color(255, 180, 190),
+    ]);
 
-//left leg
-add([
-    rect(10, 25),
-    pos(307, 310),
-    color(80, 80, 180),
-]);
-//right leg
-add([
-    rect(10, 25),
-    pos(323, 310),
-    color(80, 80, 180),
-]);
+    //left leg
+    add([
+        rect(10, 25),
+        pos(307, 310),
+        color(80, 80, 180),
+    ]);
+    //right leg
+    add([
+        rect(10, 25),
+        pos(323, 310),
+        color(80, 80, 180),
+    ]);
 
-//  building
-add([
-    rect(180, 190),
-    pos(400, 110),
-    color(230, 230, 240),
-    outline(3, BLACK),
-]);
-
-
-// Hospital roof
-add([
-    rect(190, 15),
-    pos(395, 100),
-    color(180, 180, 195),
-]);
+    //  building
+    add([
+        rect(180, 190),
+        pos(400, 110),
+        color(230, 230, 240),
+        outline(3, BLACK),
+    ]);
 
 
-//  sign
-add([
-    text("HOSPITAL", { size: 18 }),
-    pos(445, 125),
-    color(40, 70, 130),
-]);
+    // Hospital roof
+    add([
+        rect(190, 15),
+        pos(395, 100),
+        color(180, 180, 195),
+    ]);
 
 
-// Red plus, vertical 
-add([
-    rect(12, 40),
-    pos(485, 150),
-    color(220, 40, 40),
-]);
+    //  sign
+    add([
+        text("HOSPITAL", { size: 18 }),
+        pos(445, 125),
+        color(40, 70, 130),
+    ]);
 
 
-// Red plus, horizontal 
-add([
-    rect(40, 12),
-    pos(471, 164),
-    color(220, 40, 40),
-]);
+    // Red plus, vertical 
+    add([
+        rect(12, 40),
+        pos(485, 150),
+        color(220, 40, 40),
+    ]);
 
 
-// Top row windows
-add([
-    rect(35, 35),
-    pos(420, 195),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
+    // Red plus, horizontal 
+    add([
+        rect(40, 12),
+        pos(471, 164),
+        color(220, 40, 40),
+    ]);
 
-add([
-    rect(35, 35),
-    pos(475, 195),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
 
-add([
-    rect(35, 35),
-    pos(530, 195),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
+    // Top row windows
+    add([
+        rect(35, 35),
+        pos(420, 195),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
 
-// Bottom row windows
-add([
-    rect(35, 35),
-    pos(420, 245),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
+    add([
+        rect(35, 35),
+        pos(475, 195),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
 
-add([
-    rect(35, 35),
-    pos(475, 245),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
+    add([
+        rect(35, 35),
+        pos(530, 195),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
 
-add([
-    rect(35, 35),
-    pos(530, 245),
-    color(100, 190, 230),
-    outline(2, BLACK),
-]);
+    // Bottom row windows
+    add([
+        rect(35, 35),
+        pos(420, 245),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
+
+    add([
+        rect(35, 35),
+        pos(475, 245),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
+
+    add([
+        rect(35, 35),
+        pos(530, 245),
+        color(100, 190, 230),
+        outline(2, BLACK),
+    ]);
 
 </script>
