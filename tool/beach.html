@@ -1,0 +1,120 @@
+<script type="module">
+
+// import kaboom.js
+import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+
+// initialize kaboom context
+
+//background
+kaboom({
+  width: 2040,
+  height: 800,
+  background: [100, 190, 255],
+});
+//sand
+add([
+  rect(2040, 830),
+  pos(0, 370),
+  color(245, 220, 150),
+]);
+
+//ocean
+add([
+  rect(2040, 235),
+  pos(0, 200),
+  color(30, 140, 220),
+]);
+
+//sun
+add([
+  circle(35),
+  pos(1200, 65),
+  color(255, 220, 50),
+]);
+
+
+//palm tree
+ // Tree trunk
+add([
+  rect(25, 110),
+  pos(100, 440),
+  color(140, 90, 45),
+]);
+
+// Palm leaves
+add([
+  circle(45),
+  pos(112, 420),
+  color(40, 160, 70),
+]);
+
+//umbrella 
+
+// Umbrella pole
+add([
+  rect(8, 75),
+  pos(326, 480),
+  color(100, 70, 40),
+]);
+
+
+ // Umbrella top
+add([
+  circle(45),
+  pos(330, 440),
+  color(255, 80, 100),
+]);
+
+
+//charcter
+add([
+    circle(20),
+    pos(320, 265),
+    color(255, 120, 160),
+]);
+//eyes
+add([
+    circle(4),
+    pos(315, 265),
+    color(0,0,0),
+]);
+
+add([
+    circle(4),
+    pos(328, 265),
+    color(0,0,0),
+]);
+//bpdy
+add([
+    rect(30, 40),
+    pos(305, 275),
+    color(255, 180, 160),
+]);
+//left arm
+add([
+    rect(10, 30),
+    pos(295, 280),
+    color(255, 180, 190),
+]);
+///right arm
+add([
+    rect(10, 30),
+    pos(335, 280),
+    color(255, 180, 190),
+]);
+
+//left leg
+add([
+    rect(10, 25),
+    pos(307, 310),
+    color(80, 80, 180),
+]);
+//right leg
+add([
+    rect(10, 25),
+    pos(323, 310),
+    color(80, 80, 180),
+]);
+
+
+</script>
