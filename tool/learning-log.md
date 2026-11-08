@@ -127,6 +127,9 @@ I really miss the summer so, I wanted to create a relaxing scene with blue skies
 * I used rect(8, 75) to create the umbrella pole.
    *  I set the position to `pos(326, 480)`, for it to be right on top of the sand and look like an umbrella while touching the top.
 
+I also wanted to add a person because there were people on the beach, so I copied and pasted my character I had made in my learning-kaboom.html file, and I really like how it turned out. The next steps for learning more about my tool will be trying new codes to see what else I can make and maybe watch more videos and build more complicated things.
+
+
 ##### What I practiced
 
 |Code |Output|
