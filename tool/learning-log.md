@@ -86,9 +86,57 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 * So I have added my hospital and I really like how it turned out, at first I was gonna do only 4 windows but it felt empty, so then I changed the layout and I added six.
 
 * First for the background, I used width , height, and background to put the setting, for how wide the screen is and how tall the screen is.
-* Using rect() will make a rectangle which I used to make the grass. using"pos()" will tell the game where you want the position will be.
-* I used "text()" to write the word hospital on the building, and I added a black border around the building and I liked how it looked, "outline(2, BLACK)". I used the position, size, and color codes to make everything look realistic.
+* Using `rect()` will make a rectangle which I used to make the grass. using "`pos()`" will tell the game where you want the position will be.
+* I used "`text()`" to write the word hospital on the building, and I added a black border around the building and I liked how it looked, "`outline(2, BLACK)`". I used the position, size, and color codes to make everything look realistic.
 
+### **Beach Scene**
+
+#### My inspiration
+I really miss the summer so, I wanted to create a relaxing scene with blue skies, ocean water, and golden sand to represent the summer. I added a sun to represent the sunny weather and a palm tree to give it a tropical vibe. I also added an umbrella because it makes it look more realistic. I made this at my beach.html file.
+
+#### HOw I made it
+##### Background
+* I set the width to 2040 pixels and the height to 800 pixels. I made it bigger than my scene from before because I wanted it to fully fit my chromebook.
+* I used the `background: [100, 190, 255]` to make the sky  be a light blue.
+##### Sand
+* I used add() to add the sand to the screen.
+* Then I used `rect(2040, 830)`, to make a rectangle that stretches across the bottom, and then I used `pos(0, 370)`, to place it at the bottom of the screen.
+##### Ocean
+* For the ocean I also used a rectangle, `rect(2040, 235)`, and a nice ocean color, `color(30, 140, 220)`,.
+* I use this to choose which colors I want. [RGB Color](https://rgbcolorpicker.com/)
+##### Sun
+* For the sun I used, `circle(35)`
+* Then I used `pos(1200, 65)`, to place it near the top-right corner.
+* Set the color to yellow using `color(255, 220, 50)`.
+##### Tree
+* I used `rect(25, 110)` to create the tree trunk.
+* I used  `pos(100, 440)`  to position the trunk, then I used `color(140, 90, 45)` to make it brown.
+
+* Then I used, `circle(45)` to create the palm tree's leaves. Then after I used `pos(112, 420)`, to put the leaves on top of the tree trunk.
+
+
+   * While doing this I came across an issue because in the code I first put the top of the tree and then I put the body of the tree. Which made the tree look weird, because you could see the body of the tree on top of the leaves.
+
+   * Then after I realized that in JavaScript  the order you put things matter. So I switched it up and put the body of the tree first then the leaves.
+  
+##### Umbrella
+* I used `circle(45)` to create the top of the umbrella.
+
+   * Then I used  `pos(330, 440)`, to put it on top of the sand.
+* I made the color pink using `color(255, 80, 100)`
+* I used rect(8, 75) to create the umbrella pole.
+   *  I set the position to `pos(326, 480)`, for it to be right on top of the sand and look like an umbrella while touching the top.
+
+##### What I practiced
+
+|Code |Output|
+| --- | --- |
+|  add() | adds objects to the screen|
+|  rect() | makes a rectangle|
+|  circle() | makes a circle|
+|  pos() | controls the position|
+|  color() | changing colors|
+|  text() | adds words to the screen|
 
 
 
