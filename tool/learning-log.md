@@ -75,7 +75,7 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 
 
 
-### 11/7/26:
+### 11/4/26:
 * So first I made a new file in my ide called, kaboom.html, and what i made is pretty simple and basic.
 * I made a blue background with grass, sun, and tree. with a pink character with eyes.
 * Now i'm going to figure out how to add a body / build a body for my character.
