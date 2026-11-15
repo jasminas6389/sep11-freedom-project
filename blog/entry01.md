@@ -18,6 +18,15 @@ I didn't know where to start so I looked at examples on the Kaboom.js website, a
 |  body() | allows gravity to affect an object|
 |  solid() | stops objects from passing through each other|
 
+I also watched a video from the channel Ourcade called _5 Tips for Getting Started with Kaboom.js_. This helped me learn more about creating objects, collisions, animations, and game levels.
+
+### How I Tinkered With Kaboom.js
+First I made a new file in my IDE called `kaboom.html`, I started by making a simple scene with a blue background, grass, a sun, a tree, and a pink character with eyes. Then I started To make the body for the character. Then I added a hospital because it connects to my game idea. I created a hospital building using rectangles and added a roof, the word "HOSPITAL," a red cross, and six windows. 
+
+I used width, height, and background to create the setting. I also used rect() to make the grass and building, pos() to position objects, and text() to add the hospital sign.
+
+**My Beach Scene**
+Another way I tinkered with Kaboom.js was making a beach scene. I really missed summer so I wanted to create something relaxing with blue skies, ocean water, and golden sand. I also added a sun, a palm tree, an umbrella, and my character.
 
 
 [Next](entry02.md)
