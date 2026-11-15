@@ -26,7 +26,19 @@ First I made a new file in my IDE called `kaboom.html`, I started by making a si
 I used width, height, and background to create the setting. I also used rect() to make the grass and building, pos() to position objects, and text() to add the hospital sign.
 
 **My Beach Scene**
-Another way I tinkered with Kaboom.js was making a beach scene. I really missed summer so I wanted to create something relaxing with blue skies, ocean water, and golden sand. I also added a sun, a palm tree, an umbrella, and my character.
+Another way I tinkered with Kaboom.js was making a beach scene. I really missed summer so I wanted to create something relaxing with blue skies, ocean water, and golden sand. I also added a sun, a palm tree, an umbrella, and my character. I used rect() to create the sand, ocean, the tree, and the umbrella. I used  circle() to create the sun, palm tree leaves, and an umbrella top. I also used different color() and pos() codes to make everything look the way I wanted.
+
+**Challenge**
+One challenge I faced was when I was creating my palm tree. I originally put the leaves before the tree trunk, which made the tree look weird because the trunk appeared on top of the leaves. But then I remembered that the order I put objects in matters in JavaScript. I switched the order and placed the trunk first and the leaves after, which fixed the problem.
+
+## What else I learned
+|Code |Output|
+| --- | --- |
+|  loadSprite() | can load a sprite sheet with different images|
+|  player.play("run") | can make a character run|
+|  addLevel() | can be used to create game levels|
+
+I also learned that I can use onKeyPress() to make a character jump when a player presses the space bar.
 
 
 [Next](entry02.md)
