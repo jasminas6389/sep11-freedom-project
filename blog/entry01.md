@@ -8,6 +8,15 @@ For my Freedom Project I decided to pick the tool **Kaboom.js**. With this tool 
 I didn't know where to start so I looked at examples on the Kaboom.js website, and used the playground to experiment with different codes. But I also made sure to have a file in my IDE where I tinker with Kaboom.js
 
 **I learned**
+|Code |Output|
+| --- | --- |
+|  add() | creates, objects and adds them to the screen|
+|  pos() | controls where an object is placed|
+|  circle() | makes a circle|
+|  rect() | creates rectangles|
+|  setGravity() | makes a character fall from the top of the screen|
+|  body() | allows gravity to affect an object|
+|  solid() | stops objects from passing through each other|
 
 
 [Next](entry02.md)
