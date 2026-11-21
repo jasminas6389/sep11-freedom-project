@@ -162,6 +162,42 @@ onKeyDown("up", () => box.move(0, -120));
 onKeyDown("down", () => box.move(0, 120));
 ```
 
+**Meanings of Code**
+
+
+* `() => {}` = a small, quick function.
+
+* The parentheses `()` mean “no inputs.”
+
+* The arrow `=>` means “do this next.”
+
+* The braces `{}` hold the code you want to run.
+
+
+*  I learned how to change the shape or color of an object when I press a certain key. I already knew how to move my square with the arrow keys, but now I wanted to make it react in other ways too.
+
+
+```js
+
+onKeyPress("space", () => {
+  box.color = rgb(255, 0, 0);
+});
+```
+The blue color box to become red once the spacebar is pressed
+
+```js
+onKeyPress("s", () => {
+  destroy(box);
+  box = add([
+    rect(80, 20),
+    pos(100, 100),
+    color(0, 255, 0),
+  ]);
+});
+```
+
+When I press “S”, the old square gets removed and a new green rectangle appears.
+
 
 
 <!-- 
