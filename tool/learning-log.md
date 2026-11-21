@@ -199,6 +199,52 @@ onKeyPress("s", () => {
 When I press “S”, the old square gets removed and a new green rectangle appears.
 
 
+* You can scale and rotate objects in Kaboom using the `scale()` and `rotate()` functions. These let you change the size and orientation of an object.
+
+* `scale(factor)` changes the size of the object. For example, scale(2) makes the object twice as big.
+
+* `rotate(angle)` rotates the object by a specified number of degrees. For instance, `rotate(45)` turns the object 45 degrees.
+
+* Both of these functions let you modify the appearance of your game objects without changing their basic structure.
+
+* I made a sqaure using, scale() and rotate():
+
+``` js
+kaboom();
+
+add([
+  rect(50, 50),
+  pos(100, 100),
+  color(255, 0, 0),
+  scale(2),
+  rotate(45),
+]);
+
+```
+* I created a red square with these components:
+
+* `scale(2)` makes it twice as big.
+
+* `rotate(45)` rotates it 45 degrees.
+
+
+When I ran the code, I saw a red square that was bigger and tilted at an angle.
+
+Then: 
+* I experimented with different numbers to see how they affected the object:
+
+* Changed the scale to `scale(0.5)` to make the square smaller.
+
+* Used `rotate(90)` to rotate it by 90 degrees.
+
+* Played with `scale(3)` to make it three times as big.
+
+I learned that: 
+* Scaling: If you increase the scale value, the object gets larger; if you decrease it, the object shrinks.
+
+* Rotating: You can make the object face different directions by changing the rotate angle. Positive numbers rotate clockwise, and negative numbers rotate counterclockwise.
+
+
 
 <!-- 
 * Links you used today (websites, videos, etc)
