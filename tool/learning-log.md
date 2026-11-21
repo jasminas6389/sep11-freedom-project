@@ -90,6 +90,27 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 * I used "text()" to write the word hospital on the building, and I added a black border around the building and I liked how it looked, "outline(2, BLACK)". I used the position, size, and color codes to make everything look realistic.
 
 
+### 11/21/26
+
+
+*  I learned how to make things move when I press keys on the keyboard. Kaboom has functions like `onKeyDown()` and `onKeyPress()` that can detect when you press or hold down a key. This is how games let you control your character.
+
+Here is the code. 
+```js
+kaboom();
+
+const box = add([
+  rect(50, 50),
+  pos(100, 100),
+  color(0, 255, 0),
+]);
+
+onKeyDown("right", () => box.move(120, 0));
+onKeyDown("left", () => box.move(-120, 0));
+onKeyDown("up", () => box.move(0, -120));
+onKeyDown("down", () => box.move(0, 120));
+```
+
 
 
 <!-- 
@@ -99,3 +120,4 @@ I watched a video from the channel `ourcade`, and I watched the video `5 tips fo
 * Questions you still have
 * What you're going to try next
 -->
+
